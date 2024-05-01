@@ -1,0 +1,50 @@
+/* Font face for Aptos */
+@font-face {
+  font-family: 'Aptos';
+  src: url('fonts/Aptos-Regular.woff2') format('woff2'),
+       url('fonts/Aptos-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Main body styling */
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333333; /* Dark grey text color for good readability */
+  font-family: 'Aptos', sans-serif; /* Aptos font with sans-serif as a fallback */
+}
+
+/* Passage text styling */
+.passage {
+  color: #444444; /* Slightly lighter text color */
+  background-color: #ffffff; /* White background for passages */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Links styling */
+a.internalLink, a.externalLink {
+  color: #0066cc; /* Bright blue link color */
+  text-decoration: none; /* No underline */
+}
+
+a.internalLink:hover, a.externalLink:hover {
+  color: #004499; /* Darker blue on hover */
+  text-decoration: underline; /* Underline on hover for emphasis */
+}
+
+/* Sidebar styling */
+#ui-bar {
+  background-color: #e6e6e6; /* Lighter grey for the UI bar */
+  color: #333;
+  padding: 10px;
+}
+
+#ui-bar-toggle {
+  color: #333;
+}
+
+/* Active links styling */
+a:active {
+  color: #ff0000; /* Red color for active links */}
